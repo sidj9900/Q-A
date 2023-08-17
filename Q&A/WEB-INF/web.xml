@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true">
+
+  <servlet>
+	<servlet-name>FirstServlet</servlet-name>
+	<servlet-class>FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>FirstServlet</servlet-name>
+	<url-pattern>/servlet/FirstServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>SecondServlet</servlet-name>
+	<servlet-class>SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>SecondServlet</servlet-name>
+	<url-pattern>/servlet/SecondServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>DemoGenericServlet</servlet-name>
+	<servlet-class>DemoGenericServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>DemoGenericServlet</servlet-name>
+	<url-pattern>/servlet/DemoGenericServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>NextProgram</servlet-name>
+	<servlet-class>NextProgram</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>NextProgram</servlet-name>
+	<url-pattern>/servlet/NextProgram</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Next</servlet-name>
+	<servlet-class>Next</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Next</servlet-name>
+	<url-pattern>/servlet/Next</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>DemoGetParameter</servlet-name>
+	<servlet-class>DemoGetParameter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>DemoGetParameter</servlet-name>
+	<url-pattern>/servlet/DemoGetParameter</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>DemoGetParameterValues</servlet-name>
+	<servlet-class>DemoGetParameterValues</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>DemoGetParameterValues</servlet-name>
+	<url-pattern>/servlet/DemoGetParameterValues</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>DemoGetParamNames</servlet-name>
+	<servlet-class>DemoGetParamNames</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>DemoGetParamNames</servlet-name>
+	<url-pattern>/servlet/DemoGetParamNames</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>Login</servlet-name>
+	<servlet-class>Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Login</servlet-name>
+	<url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>LoginDB</servlet-name>
+	<servlet-class>LoginDB</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>LoginDB</servlet-name>
+	<url-pattern>/servlet/LoginDB</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Welcome</servlet-name>
+	<servlet-class>Welcome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Welcome</servlet-name>
+	<url-pattern>/servlet/Welcome</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>DemoHttpServlet</servlet-name>
+	<servlet-class>DemoHttpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>DemoHttpServlet</servlet-name>
+	<url-pattern>/servlet/DemoHttpServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>DiffGetPost</servlet-name>
+	<servlet-class>DiffGetPost</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>DiffGetPost</servlet-name>
+	<url-pattern>/servlet/DiffGetPost</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>DemoHttpServlet1</servlet-name>
+	<servlet-class>DemoHttpServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>DemoHttpServlet1</servlet-name>
+	<url-pattern>/servlet/DemoHttpServlet1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Calc</servlet-name>
+	<servlet-class>Calc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Calc</servlet-name>
+	<url-pattern>/servlet/Calc</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>First</servlet-name>
+	<servlet-class>First</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>First</servlet-name>
+	<url-pattern>/servlet/First</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>Second</servlet-name>
+	<servlet-class>Second</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Second</servlet-name>
+	<url-pattern>/servlet/Second</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>LoginDB1</servlet-name>
+	<servlet-class>LoginDB1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>LoginDB1</servlet-name>
+	<url-pattern>/servlet/LoginDB1</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>Welcome1</servlet-name>
+	<servlet-class>Welcome1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Welcome1</servlet-name>
+	<url-pattern>/servlet/Welcome1</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>LoginDB2</servlet-name>
+	<servlet-class>LoginDB2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>LoginDB2</servlet-name>
+	<url-pattern>/servlet/LoginDB2</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>Welcome2</servlet-name>
+	<servlet-class>Welcome2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Welcome2</servlet-name>
+	<url-pattern>/servlet/Welcome2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>ViewAll</servlet-name>
+	<servlet-class>ViewAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>ViewAll</servlet-name>
+	<url-pattern>/servlet/ViewAll</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>SelectDB</servlet-name>
+	<servlet-class>SelectDB</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>SelectDB</servlet-name>
+	<url-pattern>/servlet/SelectDB</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Url2</servlet-name>
+	<servlet-class>Url2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Url2</servlet-name>
+	<url-pattern>/servlet/Url2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Url3</servlet-name>
+	<servlet-class>Url3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Url3</servlet-name>
+	<url-pattern>/servlet/Url3</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Hide2</servlet-name>
+	<servlet-class>Hide2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Hide2</servlet-name>
+	<url-pattern>/servlet/Hide2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Hide3</servlet-name>
+	<servlet-class>Hide3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Hide3</servlet-name>
+	<url-pattern>/servlet/Hide3</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>ViewAll1</servlet-name>
+	<servlet-class>ViewAll1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>ViewAll1</servlet-name>
+	<url-pattern>/servlet/ViewAll1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Delete</servlet-name>
+	<servlet-class>Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Delete</servlet-name>
+	<url-pattern>/servlet/Delete</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>Update</servlet-name>
+	<servlet-class>Update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Update</servlet-name>
+	<url-pattern>/servlet/Update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Cks2</servlet-name>
+	<servlet-class>Cks2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Cks2</servlet-name>
+	<url-pattern>/servlet/Cks2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>DisplayCookies</servlet-name>
+	<servlet-class>DisplayCookies</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>DisplayCookies</servlet-name>
+	<url-pattern>/servlet/DisplayCookies</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Sess2</servlet-name>
+	<servlet-class>Sess2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Sess2</servlet-name>
+	<url-pattern>/servlet/Sess2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Sess3</servlet-name>
+	<servlet-class>Sess3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Sess3</servlet-name>
+	<url-pattern>/servlet/Sess3</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Sess4</servlet-name>
+	<servlet-class>Sess4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Sess4</servlet-name>
+	<url-pattern>/servlet/Sess4</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>Sess5</servlet-name>
+	<servlet-class>Sess5</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>Sess5</servlet-name>
+	<url-pattern>/servlet/Sess5</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+	<servlet-name>PLogin</servlet-name>
+	<servlet-class>PLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>PLogin</servlet-name>
+	<url-pattern>/servlet/PLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>PRegistration</servlet-name>
+	<servlet-class>PRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>PRegistration</servlet-name>
+	<url-pattern>/servlet/PRegistration</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>PAdminRegistration</servlet-name>
+	<servlet-class>PAdminRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>PAdminRegistration</servlet-name>
+	<url-pattern>/servlet/PAdminRegistration</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>PWelcome</servlet-name>
+	<servlet-class>PWelcome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>PWelcome</servlet-name>
+	<url-pattern>/servlet/PWelcome</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	<servlet-name>PViewAll</servlet-name>
+	<servlet-class>PViewAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>PViewAll</servlet-name>
+	<url-pattern>/servlet/PViewAll</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>PLoginDB</servlet-name>
+	<servlet-class>PLoginDB</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>PLoginDB</servlet-name>
+	<url-pattern>/servlet/PLoginDB</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+	<servlet-name>javaq</servlet-name>
+	<servlet-class>javaq</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>javaq</servlet-name>
+	<url-pattern>/servlet/javaq</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>cppq</servlet-name>
+	<servlet-class>cppq</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>cppq</servlet-name>
+	<url-pattern>/servlet/cppq</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>cq</servlet-name>
+	<servlet-class>cq</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>cq</servlet-name>
+	<url-pattern>/servlet/cq</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>PSignUp</servlet-name>
+	<servlet-class>PSignUp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>PSignUp</servlet-name>
+	<url-pattern>/servlet/PSignUp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>SendMail</servlet-name>
+	<servlet-class>SendMail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>SendMail</servlet-name>
+	<url-pattern>/servlet/SendMail</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
